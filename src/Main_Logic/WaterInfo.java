@@ -1,3 +1,5 @@
+package Main_Logic;
+
 public class WaterInfo {
     protected boolean checkWaterLevelInfo(int waterLevel, int coffeeCup) {
 //        if (coffeeCup == CoffeeCupSize.SMALL && waterLevel < 240) return false;

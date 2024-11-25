@@ -1,5 +1,7 @@
+package Main_Logic;
+
 public class CupSizeDial {
-    private int selectedSize;
+    private int selectedSize = -1;
 
     public void rotateDial(int position) {
         this.selectedSize = position;

@@ -1,3 +1,5 @@
+package Main_Logic;
+
 public class ValveController {
     private boolean valveOpen; // Valve status
 
@@ -40,8 +42,6 @@ public class ValveController {
         catch (InterruptedException e) {
             Thread.currentThread().interrupt(); //handled interrupted exception
         }
-
-//        System.out.println("Coffee is BREWED!!");
     }
 
 

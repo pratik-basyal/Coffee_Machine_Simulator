@@ -1,5 +1,7 @@
+package Main_Logic;
+
 public class BrewStrengthDial {
-    private int selectedStrength;
+    private int selectedStrength = -1;
 
     public void rotateDial(int position) {
         this.selectedStrength = position;
